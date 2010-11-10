@@ -20,7 +20,7 @@ function usage () {
 	--pid: specify a pid for the tracers that allow pid filtering
 EOF
 exit 10
-}
+} >&2
 
 function do_error () {
     printf "$@"
